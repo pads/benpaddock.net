@@ -1,0 +1,19 @@
+server {
+    server_name benpaddock.net;
+
+    access_log /var/log/nginx/benpaddock.net-access.log;
+    
+    location / {
+	root /home/tiddlyweb/benpaddock.net;
+	index index.html;
+    }
+
+    location = /web { rewrite ^ /web/; }
+    location /web { try_files $uri @tiddlyweb; }
+    location @tiddlyweb {
+        include uwsgi_params;
+	uwsgi_param SCRIPT_NAME /web;
+	uwsgi_modifier1 30;
+        uwsgi_pass unix:/tmp/tiddlyweb.uwsgi.sock;
+    }
+}
