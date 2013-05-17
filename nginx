@@ -8,6 +8,10 @@ server {
 	index index.html;
     }
 
+    location /robots.txt {
+	alias /home/tiddlyweb/benpaddock.net/robots.txt;
+    }
+
     location = /web { rewrite ^ /web/; }
     location /web { try_files $uri @tiddlyweb; }
     location @tiddlyweb {
