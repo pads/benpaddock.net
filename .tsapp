@@ -1,0 +1,3 @@
+target_server:http://benpaddock.net
+tiddlyweb_mode:True
+server_prefix:web
