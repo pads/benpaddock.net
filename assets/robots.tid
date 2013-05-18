@@ -1,2 +1,4 @@
+type: text/plain
+
 User-agent: *
 Disallow: /web/
