@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/pads/benpaddock.net.png?branch=master)](https://travis-ci.org/pads/benpaddock.net)
+
 benpaddock.net
 ==============
 
