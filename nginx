@@ -4,12 +4,11 @@ server {
     access_log /var/log/nginx/benpaddock.net-access.log;
     
     location / {
-	    root /home/tiddlyweb/benpaddock.net;
-	    index index.html;
+	    rewrite ^/ /web/bags/public/tiddlers/index;
     }
 
     location /robots.txt {
-	    alias /home/tiddlyweb/benpaddock.net/robots.txt;
+	    rewrite ^/robots.txt /web/bags/public/tiddlers/robots.txt;
     }
 
     location = /web { rewrite ^ /web/; }
