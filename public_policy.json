@@ -1,11 +1,11 @@
 {
   "policy": {
     "read": [], 
-    "create": ["pads"], 
-    "manage": ["pads"], 
+    "create": ["R:ADMIN"], 
+    "manage": ["R:ADMIN"], 
     "accept": ["NONE"], 
-    "write": ["pads"], 
-    "delete": ["pads"],
-    "owner": "pads"
+    "write": ["R:ADMIN"], 
+    "delete": ["R:ADMIN"],
+    "owner": "administrator"
   }
 }
