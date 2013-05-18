@@ -1,0 +1,11 @@
+{
+  "policy": {
+    "read": [], 
+    "create": ["pads"], 
+    "manage": ["pads"], 
+    "accept": ["NONE"], 
+    "write": ["pads"], 
+    "delete": ["pads"],
+    "owner": "pads"
+  }
+}
