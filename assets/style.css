@@ -32,3 +32,21 @@ footer {
 	width: 100%;
 	margin-bottom: 2rem;
 }
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    color: #3C3C3C;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #58595b;
+}
