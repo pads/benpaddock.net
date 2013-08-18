@@ -2,13 +2,13 @@ server {
     server_name benpaddock.net;
 
     access_log /var/log/nginx/benpaddock.net-access.log;
-    
-    location / {
-	    rewrite ^/ /web/bags/public/tiddlers/index;
+
+    location = / {
+	rewrite ^ /web/bags/public/tiddlers/index;
     }
 
-    location /robots.txt {
-	    rewrite ^/robots.txt /web/bags/public/tiddlers/robots.txt;
+    location / {
+	rewrite ^/(.*)$ /web/bags/public/tiddlers/$1;
     }
 
     location = /web { rewrite ^ /web/; }
