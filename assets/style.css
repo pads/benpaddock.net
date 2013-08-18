@@ -77,10 +77,18 @@ section {
     font-size: 1.6rem;
     font-family: 'Gudea', Georgia, serif;
     margin: 1rem;
+    width: 50%;
+    margin: 0 auto;
 }
 
 @media screen and (max-height: 599px) {
     footer {
         position: static;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    section {
+        width: 90%;
     }
 }
