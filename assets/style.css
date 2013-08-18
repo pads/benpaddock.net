@@ -1,36 +1,53 @@
 html { 
 	font-size: 62.5%;
 	background-color: #FFFFF2;
-} 
+}
+
+h1 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
 
 header, footer {	
 	font-family: 'Bitter', Georgia, serif;
 	color: #58595b;	
 }
 
-header {
-	font-size: 4.6rem;
+header h1 {
+	font-size: 4.8rem;
 }
 
-section {
-	font-size: 2.4rem;
+nav, aside {
+	font-size: 2.6rem;
 	font-family: 'Gudea', Georgia, serif;	
-	color: #3C3C3C;	
+	color: #3C3C3C;
+    width: 50%;
+    margin: 0 auto;
+}
+
+nav li, aside li {
+    width: 137px;
+    margin: 0 auto;
+}
+
+nav h1, aside h1 {
+    font-size: 3.2rem;
+}
+
+nav li, aside li {
+    line-height: 4rem;
+}
+
+header, footer {
+	text-align: center;
 }
 
 footer {
-	font-size: 1.8rem;
-}
-
-header, section, footer {
-	text-align: center;	
-}
-
-footer {
-	position: fixed;
+    font-size: 1.4rem;
+	position: absolute;
 	bottom: 0;
 	width: 100%;
-	margin-bottom: 2rem;
+	margin-bottom: 0.5rem;
 }
 
 ul {
@@ -38,7 +55,7 @@ ul {
     list-style: none;
 }
 
-li {
+footer li {
     display: inline;
 }
 
@@ -49,4 +66,15 @@ a {
 
 a:hover {
     color: #58595b;
+}
+
+li div {
+    display: inline-block;
+    width: 100px;
+}
+
+@media screen and (max-height: 599px) {
+    footer {
+        position: static;
+    }
 }
