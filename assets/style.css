@@ -19,7 +19,7 @@ header h1 {
 
 nav, aside {
 	font-size: 2.6rem;
-	font-family: 'Gudea', Georgia, serif;	
+	font-family: 'Gudea', Georgia, serif;
 	color: #3C3C3C;
     width: 50%;
     margin: 0 auto;
@@ -71,6 +71,12 @@ a:hover {
 li div {
     display: inline-block;
     width: 100px;
+}
+
+section {
+    font-size: 1.6rem;
+    font-family: 'Gudea', Georgia, serif;
+    margin: 1rem;
 }
 
 @media screen and (max-height: 599px) {
