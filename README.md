@@ -16,3 +16,9 @@ Development Notes
 =================
 
 Run `setup.sh` using `sudo env PATH=$PATH`.
+
+Credit
+======
+
+* Google, Font Awesome and Zocial for the web fonts.
+* Normalize.css for the base CSS.
