@@ -2,6 +2,7 @@ server {
     server_name benpaddock.net;
 
     access_log /var/log/nginx/benpaddock.net-access.log;
+    error_log /var/log/nginx/benpaddock.net-error.log;
 
     location = / {
 	rewrite ^ /web/bags/public/tiddlers/index;
@@ -14,9 +15,9 @@ server {
     location = /web { rewrite ^ /web/; }
     location /web { try_files $uri @tiddlyweb; }
     location @tiddlyweb {
-        include uwsgi_params;
-	    uwsgi_param SCRIPT_NAME /web;
-	    uwsgi_modifier1 30;
-        uwsgi_pass unix:/tmp/tiddlyweb.uwsgi.sock;
+	include uwsgi_params;
+	uwsgi_param SCRIPT_NAME /web;
+	uwsgi_modifier1 30;
+	uwsgi_pass unix:/tmp/tiddlyweb.uwsgi.sock;
     }
 }
