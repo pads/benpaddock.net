@@ -1,0 +1,21 @@
+@mixin font-size($size: 1.6, $line: $size * 1.625, $responsive: false) {
+  font-size: ($size * 10) + px;
+  line-height: ($line * 10) + px;
+  font-size: $size + rem;
+  line-height: $line + rem;
+  @if $responsive {
+
+    @media (max-width: $small-breakpoint) {
+      font-size: ($size * 10 * 0.5) + px;
+      line-height: ($line * 10 * 0.5) + px;
+      font-size: ($size * 0.5) + rem;
+      line-height: ($line * 0.5) + rem;
+    }
+    @media (min-width: $small-breakpoint) and (max-width: $medium-breakpoint) {
+      font-size: ($size * 10 * 0.8) + px;
+      line-height: ($line * 10 * 0.8) + px;
+      font-size: ($size * 0.8) + rem;
+      line-height: ($line * 0.8) + rem;
+    }
+  }
+}

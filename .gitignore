@@ -1,6 +1,12 @@
 *.pyc
 *.log
+*.map
+
 tiddlyweb_instance/store
+
 node_modules
+
+assets/main.css
+.sass-cache
 
 .DS_Store

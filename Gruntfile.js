@@ -32,10 +32,60 @@ module.exports = function (grunt) {
           threshold: 90
         }
       }
+    },
+    sass: {
+      development: {
+        options: {
+          style: "expanded",
+          sourcemap: "true"
+        },
+        files: [
+          {
+            expand: true,
+            cwd: "src/sass",
+            src: ["*.scss"],
+            dest: "assets",
+            ext: ".css"
+          }
+        ]
+      },
+      production: {
+        options: {
+          style: "compressed"
+        },
+        files: [
+          {
+            expand: true,
+            cwd: "src/sass",
+            src: ["*.scss"],
+            dest: "assets",
+            ext: ".css"
+          }
+        ]
+      }
+    },
+    autoprefixer: {
+      options: {
+        map: true
+      },
+      dist: {
+        src: "assets/main.css",
+        dest: "assets/main.css"
+      }
+    },
+    watch: {
+      sass: {
+        files: "src/sass/*.scss",
+        tasks: ["sass:development", "autoprefixer"],
+        options: {
+          livereload: true
+        }
+      }
     }
   });
   /*global require:false*/
   require("matchdep").filterDev("grunt-!(template)*").forEach(grunt.loadNpmTasks);
 
-  grunt.registerTask("ci", ["jshint", "pagespeed"]);
+  grunt.registerTask("ci", ["jshint", "sass:production", "autoprefixer", "pagespeed"]);
+  grunt.registerTask("default", ["jshint", "sass:development", "autoprefixer"]);
 };

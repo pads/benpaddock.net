@@ -1,0 +1,46 @@
+html {
+  font-size: 62.5%;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: $dark-font-colour;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  @include font-size();
+}
+
+h1 {
+  @include font-size(4.8, 4.8, true);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  @include font-size(3.6);
+}
+
+h3 {
+  @include font-size(3);
+}
+
+h4 {
+  @include font-size(2.4);
+}
+
+h5 {
+  @include font-size(2);
+}
+
+h6 {
+  @include font-size(1.8);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+p {
+  margin: 15px;
+  text-align: justify;
+}

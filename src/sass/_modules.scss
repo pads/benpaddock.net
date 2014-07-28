@@ -1,0 +1,34 @@
+nav {
+  background: $primary-colour-lightest;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: $nav-height;
+}
+
+nav a {
+  text-decoration: none;
+  border-radius: 50%;
+  background: $primary-colour;
+  color: $primary-colour-lightest;
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  margin: 15px 1%;
+}
+
+.nav-text {
+  float: left;
+  width: 100%;
+  padding-top: 50%;
+  line-height: 10px;
+  margin-top: -5px;
+  text-align: center;
+}
+
+main {
+  padding-bottom: $nav-height;
+  max-width: 570px;
+  margin: 0 auto;
+}
