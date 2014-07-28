@@ -17,6 +17,14 @@ Development Notes
 
 Run `setup.sh` using `sudo env PATH=$PATH`.
 
+To host on your local machine, install `tsapp`:
+ 
+    pip install tsapp` 
+    
+Edit the `.tsapp` file so that `target_server` is set to `http://localhost:8080`.
+    
+Then run the server: `tsapp serve`.
+
 Credit
 ======
 
