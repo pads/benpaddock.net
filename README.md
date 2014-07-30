@@ -28,5 +28,6 @@ Then run the server: `tsapp serve`.
 Credit
 ======
 
-* Google, Font Awesome and Zocial for the web fonts.
-* Normalize.css for the base CSS.
+* [Google](https://www.google.com/fonts) and [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/) for the web fonts.
+* [Normalize.css](http://necolas.github.io/normalize.css/) for the base CSS.
+* @cdent for making [TiddlyWeb](http://tiddlyweb.com/) and [tsapp](http://tsapp.tiddlyspace.com)

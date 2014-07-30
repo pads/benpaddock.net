@@ -16,6 +16,11 @@ nav a {
   width: 65px;
   height: 65px;
   margin: 15px 1%;
+  transition: 500ms linear 0s;
+  transition-property: color, background-color;
+  &:hover, &:focus {
+    @include glow($alt-primary-colour, $complement-colour-light, false);
+  }
 }
 
 .nav-text {
@@ -28,7 +33,37 @@ nav a {
 }
 
 main {
+  padding-top: 15px;
   padding-bottom: $nav-height;
   max-width: 570px;
   margin: 0 auto;
+}
+
+.active-link {
+  background: $complement-colour-darkest;
+  &:hover, &:focus {
+    background: $complement-colour-darkest;
+  }
+}
+
+.links-list {
+  text-align: center;
+  a {
+    display: inline-block;
+    margin: 7.5px;
+    transition: color 500ms linear 0s;
+    &:hover, &:focus {
+      @include glow($alt-primary-colour, false, true);
+    }
+  }
+  i {
+    transition: color 500ms linear 0s;
+    color: $secondary-colour;
+    vertical-align: middle;
+  }
+  span {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+  }
 }

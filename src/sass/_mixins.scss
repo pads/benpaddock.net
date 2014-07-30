@@ -19,3 +19,26 @@
     }
   }
 }
+
+@mixin glow($colour, $background-colour, $glow-children: false) {
+  transition: 500ms linear 0s;
+  transition-property: color, background-color;
+  @if $background-colour {
+    background: $background-colour;
+  }
+  @if $colour {
+    color: $colour;
+  }
+  @if $glow-children {
+    & > * {
+      transition: 500ms linear 0s;
+      transition-property: color, background-color;
+      @if $background-colour {
+        background: $background-colour;
+      }
+      @if $colour {
+        color: $colour;
+      }
+    }
+  }
+}
