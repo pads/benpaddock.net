@@ -5,6 +5,13 @@ nav {
   bottom: 0;
   width: 100%;
   height: $nav-height;
+  box-shadow: 0 0 5px $primary-colour-light;
+}
+
+.no-boxshadow {
+  nav {
+    border-top: 1px solid $primary-colour-light;
+  }
 }
 
 nav a {
@@ -46,12 +53,22 @@ main {
   }
 }
 
+.no-text-decoration {
+  text-decoration: none;
+}
+
 .links-list {
   text-align: center;
+  padding: 0;
+  li {
+    list-style: none;
+  }
   a {
     display: inline-block;
     margin: 7.5px;
     transition: color 500ms linear 0s;
+    text-decoration: none;
+    color: $dark-font-colour;
     &:hover, &:focus {
       @include glow($alt-primary-colour, false, true);
     }
@@ -66,4 +83,14 @@ main {
     width: 150px;
     text-align: left;
   }
+}
+
+.avatar {
+  width: 50%;
+  height: 50%;
+  max-width: 280px;
+  max-height: 280px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
 }
