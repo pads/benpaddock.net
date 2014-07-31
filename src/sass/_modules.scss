@@ -62,10 +62,15 @@ main {
   a {
     display: inline-block;
     margin: 7.5px;
-    transition: color 500ms linear 0s;
+    transition-property: border, color;
+    transition: 500ms linear 0s;
     text-decoration: none;
     color: $dark-font-colour;
+    border: 1px solid $secondary-colour;
+    padding: 10px;
+    border-radius: 5px;
     &:hover, &:focus {
+      border: 1px solid $alt-primary-colour;
       @include transition-colour($alt-primary-colour, false, true);
     }
   }
