@@ -6,12 +6,21 @@ html {
   background: $primary-colour-lightest;
 }
 
+main {
+  padding-top: 15px;
+  padding-bottom: 15 + $nav-height;
+  max-width: 570px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 a {
   color: $alt-primary-colour-dark;
 }
 
 article {
-  padding: 15px 0;
+  padding-bottom: 30px;
 }
 
 hr {
@@ -29,4 +38,12 @@ img {
   margin: 0 auto 15px auto;
   display: block;
   max-width: 770px;
+}
+
+li {
+  margin: 5px 0;
+}
+
+ul {
+  padding-left: 35px;
 }
