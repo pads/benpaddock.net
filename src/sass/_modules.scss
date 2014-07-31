@@ -6,12 +6,7 @@ nav {
   width: 100%;
   height: $nav-height;
   box-shadow: 0 0 5px $primary-colour-light;
-}
-
-.no-boxshadow {
-  nav {
-    border-top: 1px solid $primary-colour-light;
-  }
+  z-index: 1;
 }
 
 nav a {
@@ -26,7 +21,7 @@ nav a {
   transition: 500ms linear 0s;
   transition-property: color, background-color;
   &:hover, &:focus {
-    @include glow($alt-primary-colour, $complement-colour-light, false);
+    @include transition-colour($alt-primary-colour, $complement-colour-light, false);
   }
 }
 
@@ -41,7 +36,7 @@ nav a {
 
 main {
   padding-top: 15px;
-  padding-bottom: $nav-height;
+  padding-bottom: 15 + $nav-height;
   max-width: 570px;
   margin: 0 auto;
 }
@@ -53,7 +48,8 @@ main {
   }
 }
 
-.no-text-decoration {
+.home-link {
+  margin: 0;
   text-decoration: none;
 }
 
@@ -70,7 +66,7 @@ main {
     text-decoration: none;
     color: $dark-font-colour;
     &:hover, &:focus {
-      @include glow($alt-primary-colour, false, true);
+      @include transition-colour($alt-primary-colour, false, true);
     }
   }
   i {
@@ -90,7 +86,58 @@ main {
   height: 50%;
   max-width: 280px;
   max-height: 280px;
-  margin: 0 auto;
-  display: block;
   border-radius: 10px;
+}
+
+.iframe-container {
+  margin: 15px;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  overflow: hidden;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.align-centre {
+  text-align: center;
+}
+
+.block {
+  display: block;
+}
+
+.no-text-decoration {
+  text-decoration: none;
+}
+
+.glow {
+  display: block;
+  img {
+    transition: box-shadow 500ms linear 0s;
+  }
+  &:hover, &:focus {
+    img {
+      box-shadow: 0 0 20px $secondary-colour;
+    }
+  }
+}
+
+.no-boxshadow {
+  nav {
+    border-top: 1px solid $primary-colour-light;
+  }
+  .glow {
+    &:hover, &:focus {
+      img {
+        border: 1px solid $secondary-colour;
+      }
+    }
+  }
 }

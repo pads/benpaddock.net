@@ -9,3 +9,24 @@ html {
 a {
   color: $alt-primary-colour-dark;
 }
+
+article {
+  padding: 15px 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $secondary-colour-light;
+  margin: 10px auto;
+  padding: 0;
+  width: 80%;
+}
+
+img {
+  width: 90%;
+  margin: 0 auto 15px auto;
+  display: block;
+  max-width: 770px;
+}

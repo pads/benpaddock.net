@@ -6,23 +6,21 @@
   @if $responsive {
 
     @media (max-width: $small-breakpoint) {
-      font-size: ($size * 10 * 0.5) + px;
-      line-height: ($line * 10 * 0.5) + px;
-      font-size: ($size * 0.5) + rem;
-      line-height: ($line * 0.5) + rem;
+      font-size: ($size * 10 * 0.6) + px;
+      line-height: ($line * 10 * 0.6) + px;
+      font-size: ($size * 0.6) + rem;
+      line-height: ($line * 0.6) + rem;
     }
     @media (min-width: $small-breakpoint) and (max-width: $medium-breakpoint) {
-      font-size: ($size * 10 * 0.8) + px;
-      line-height: ($line * 10 * 0.8) + px;
-      font-size: ($size * 0.8) + rem;
-      line-height: ($line * 0.8) + rem;
+      font-size: ($size * 10 * 0.9) + px;
+      line-height: ($line * 10 * 0.9) + px;
+      font-size: ($size * 0.9) + rem;
+      line-height: ($line * 0.9) + rem;
     }
   }
 }
 
-@mixin glow($colour, $background-colour, $glow-children: false) {
-  transition: 500ms linear 0s;
-  transition-property: color, background-color;
+@mixin transition-colour($colour, $background-colour, $glow-children: false) {
   @if $background-colour {
     background: $background-colour;
   }
