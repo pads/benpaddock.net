@@ -22,14 +22,21 @@ module.exports = function (grunt) {
       }
     },
     pagespeed: {
-      production: {
+      options: {
+        nokey: true,
+        url: "http://benpaddock.net",
+        paths: ["/About", "/CV", "/Portfolio", "/Links"],
+        locale: "en_GB",
+        threshold: 90
+      },
+      mobile: {
         options: {
-          nokey: true,
-          url: "http://benpaddock.net",
-//          paths: [],
-          locale: "en_GB",
-          strategy: "desktop",
-          threshold: 90
+          strategy: "mobile"
+        }
+      },
+      desktop: {
+        options: {
+          strategy: "desktop"
         }
       }
     },
