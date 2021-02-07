@@ -9,7 +9,7 @@
         "lint": "eslint --ext .ts,.tsx",
         "lintci": "eslint '*/**/*.{js,ts,tsx}' --quiet",
         "test": "npm run lintci",
-        "postinstall": "husky install"
+        "postinstall": "npx husky install"
     },
     "husky": {
         "hooks": {
