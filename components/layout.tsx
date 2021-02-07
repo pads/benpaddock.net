@@ -1,7 +1,7 @@
+import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Image from "next/image";
-import { faGithub, faTwitter, faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Layout({ title, children }: { title: string; children: React.ReactNode }): JSX.Element {
     return (
