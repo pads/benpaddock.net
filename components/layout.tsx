@@ -9,7 +9,6 @@ export default function Layout({ title, children }: { title: string; children: R
             <Head>
                 <title>{title}</title>
                 <link rel="icon" href="/favicon.ico" />
-                <script src="https://kit.fontawesome.com/e53d75a58e.js" crossOrigin="anonymous"></script>
             </Head>
             <div className="flex-none w-3/12 bg-black p-8">
                 <header className="grid justify-items-center space-y-3">
