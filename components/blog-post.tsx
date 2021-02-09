@@ -11,6 +11,12 @@ export default function BlogPost({ post }: { post: PostData }): JSX.Element {
             </h1>
             <Date dateString={post.date} />
             <div className="mt-8" dangerouslySetInnerHTML={{ __html: post.contentHtml }} />
+            <br />
+            ---
+            <br />
+            <Link href={`/blog`}>
+                <a>More posts</a>
+            </Link>
         </article>
     );
 }

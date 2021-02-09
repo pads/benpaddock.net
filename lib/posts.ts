@@ -50,7 +50,7 @@ export async function getPostData(id: string): Promise<PostData> {
     };
 }
 
-export function getIdOfLatestPost(): string {
+export function getSortedPostsData(): Array<{ id: string; title: string; date: string }> {
     const fileNames = fs.readdirSync(postsDirectory);
     const allPostsData = fileNames.map((fileName) => {
         const id = fileName.replace(/\.md$/, "");
@@ -62,6 +62,7 @@ export function getIdOfLatestPost(): string {
 
         return {
             id,
+            title: matterResult.data.title,
             date: matterResult.data.date.toISOString(),
         };
     });
@@ -72,5 +73,9 @@ export function getIdOfLatestPost(): string {
         } else {
             return -1;
         }
-    })[0].id;
+    });
+}
+
+export function getIdOfLatestPost(): string {
+    return getSortedPostsData()[0].id;
 }

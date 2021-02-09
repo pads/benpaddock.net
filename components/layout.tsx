@@ -1,4 +1,4 @@
-import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faBlogger, faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Image from "next/image";
@@ -41,6 +41,14 @@ export default function Layout({
                 </header>
                 <nav className="mt-4 text-gray-300">
                     <ul>
+                        <li className="p-2">
+                            <Link href={`/blog`}>
+                                <a>
+                                    <FontAwesomeIcon className="mr-2" icon={faBlogger} fixedWidth size="sm" />
+                                    Blog
+                                </a>
+                            </Link>
+                        </li>
                         <li className="p-2">
                             <a href="https://www.linkedin.com/in/benpaddock/" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon className="mr-2" icon={faLinkedin} fixedWidth size="sm" />
