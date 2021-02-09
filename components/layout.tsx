@@ -14,7 +14,7 @@ export default function Layout({
     children: React.ReactNode;
 }): JSX.Element {
     return (
-        <div className="flex flex-col sm:flex-row sm:h-full md:h-screen">
+        <div className="flex flex-col sm:flex-row min-h-screen h-full">
             <Head>
                 <title>{title}</title>
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -24,7 +24,7 @@ export default function Layout({
                 <link href="/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32" />
                 <link rel="apple-touch-icon" href="/apple-icon.png"></link>
             </Head>
-            <div className="sm:w-3/12 bg-black p-8">
+            <div className="sm:w-4/12 md:w-3/12 bg-black p-8">
                 <header className="grid justify-items-center space-y-3">
                     <Image
                         priority
@@ -62,7 +62,7 @@ export default function Layout({
                     </ul>
                 </nav>
             </div>
-            <main className="sm:w-9/12 p-8">{children}</main>
+            <main className="sm:w-8/12 md:w-9/12 p-8">{children}</main>
         </div>
     );
 }
