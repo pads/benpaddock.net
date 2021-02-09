@@ -1,4 +1,6 @@
 language: node_js
+before_script:
+    - npm run build
 script:
-    - npm run ally
+    - npm run a11y
     - npm test
