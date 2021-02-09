@@ -1,9 +1,22 @@
-import Layout from "../components/layout";
+import { GetStaticProps } from "next";
 
-export default function Home(): JSX.Element {
+import BlogPost from "../components/blog-post";
+import Layout from "../components/layout";
+import { PostData, getIdOfLatestPost, getPostData } from "../lib/posts";
+
+export default function Home({ latestPost }: { latestPost: PostData }): JSX.Element {
     return (
         <Layout title="Ben Paddock Dot Net" description="Welcome to the home of Ben Paddock">
-            <h1>Coming soon!</h1>
+            <BlogPost post={latestPost}></BlogPost>
         </Layout>
     );
 }
+
+export const getStaticProps: GetStaticProps = async () => {
+    const id = getIdOfLatestPost();
+    return {
+        props: {
+            latestPost: await getPostData(id),
+        },
+    };
+};
