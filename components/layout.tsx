@@ -3,11 +3,20 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Image from "next/image";
 
-export default function Layout({ title, children }: { title: string; children: React.ReactNode }): JSX.Element {
+export default function Layout({
+    title,
+    description,
+    children,
+}: {
+    title: string;
+    description: string;
+    children: React.ReactNode;
+}): JSX.Element {
     return (
         <div className="flex h-screen">
             <Head>
                 <title>{title}</title>
+                <meta name="description" content={description}></meta>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <div className="flex-none w-3/12 bg-black p-8">
