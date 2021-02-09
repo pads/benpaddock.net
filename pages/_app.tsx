@@ -1,6 +1,8 @@
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "tailwindcss/tailwind.css";
 
+import "../styles/overrides.css";
+
 import { config } from "@fortawesome/fontawesome-svg-core";
 import { AppProps } from "next/app";
 
