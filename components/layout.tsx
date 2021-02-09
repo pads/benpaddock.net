@@ -2,6 +2,7 @@ import { faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-ic
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Layout({
     title,
@@ -33,7 +34,9 @@ export default function Layout({
                         width={128}
                         alt="Ben Paddock"
                     />
-                    <h1 className="uppercase text-white">Ben Paddock</h1>
+                    <h1 className="uppercase text-white">
+                        <Link href={`/`}>Ben Paddock</Link>
+                    </h1>
                     <p className="text-gray-300">Full stack developer</p>
                 </header>
                 <nav className="mt-4 text-gray-300">
