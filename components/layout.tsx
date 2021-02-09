@@ -13,13 +13,13 @@ export default function Layout({
     children: React.ReactNode;
 }): JSX.Element {
     return (
-        <div className="flex h-screen">
+        <div className="flex flex-col sm:flex-row sm:h-full md:h-screen">
             <Head>
                 <title>{title}</title>
                 <meta name="description" content={description}></meta>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div className="flex-none w-3/12 bg-black p-8">
+            <div className="sm:w-3/12 bg-black p-8">
                 <header className="grid justify-items-center space-y-3">
                     <Image
                         priority
@@ -55,7 +55,7 @@ export default function Layout({
                     </ul>
                 </nav>
             </div>
-            <main className="flex-grow p-8">{children}</main>
+            <main className="sm:w-9/12 p-8">{children}</main>
         </div>
     );
 }
