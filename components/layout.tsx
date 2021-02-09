@@ -16,8 +16,12 @@ export default function Layout({
         <div className="flex flex-col sm:flex-row sm:h-full md:h-screen">
             <Head>
                 <title>{title}</title>
+                <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                 <meta name="description" content={description}></meta>
-                <link rel="icon" href="/favicon.ico" />
+                <link rel="icon" href="/icons/favicon.ico" />
+                <link href="/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16" />
+                <link href="/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32" />
+                <link rel="apple-touch-icon" href="/apple-icon.png"></link>
             </Head>
             <div className="sm:w-3/12 bg-black p-8">
                 <header className="grid justify-items-center space-y-3">
