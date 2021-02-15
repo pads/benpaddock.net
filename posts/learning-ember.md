@@ -18,20 +18,18 @@ Views are made up of Handlebars templates (for dynamic HTML rendering) backed by
 
 Given, all of the above, I could go into great lengths to explain more but that would result in a huge post. This first post is an introduction and also lays out my plan to explain my learnings of Ember. I’m aiming to regurgitate my understanding on a post-by-post basis as the project progresses. To date, I have used the following parts of Ember whilst working on my current project:
 
-* The application itself: Getting up and running.
-* Models: Representation of data as an object.
-* Stores: Managing instances of models (records) including finding, creating and destroying them.
-* Adapters: The interfaces that provide the data e.g. REST, local storage and fixture (hard-coded data).
-* Views: So far I have created a custom view based on a text field to provide filtering behaviour.
-* Controllers: Implementing user interface actions and augmenting the templates.
-* Routes: How the URL drives the application flow and state.
-* Templates: Using Handlebars features and displaying model state.
-* Classes: Using features of the Ember object model and creating a custom class that doesn’t fit under any other base class in Ember.
-* Serialisers: Customising how Ember sends and receives data.
-* Transforms: Customising model attributes (similar to serialisers above).
-* Validation: Validating models via the ember-validations library.
-* Unit testing: Testing most of what has been listed above.
+- The application itself: Getting up and running.
+- Models: Representation of data as an object.
+- Stores: Managing instances of models (records) including finding, creating and destroying them.
+- Adapters: The interfaces that provide the data e.g. REST, local storage and fixture (hard-coded data).
+- Views: So far I have created a custom view based on a text field to provide filtering behaviour.
+- Controllers: Implementing user interface actions and augmenting the templates.
+- Routes: How the URL drives the application flow and state.
+- Templates: Using Handlebars features and displaying model state.
+- Classes: Using features of the Ember object model and creating a custom class that doesn’t fit under any other base class in Ember.
+- Serialisers: Customising how Ember sends and receives data.
+- Transforms: Customising model attributes (similar to serialisers above).
+- Validation: Validating models via the ember-validations library.
+- Unit testing: Testing most of what has been listed above.
 
 I plan to cover each of these as topics on a regular enough basis. I’m hoping that by writing this down I can reinforce my learning and as a bonus, help other people wanting to learn too. The guides are enough for a hello world example but after that, I found that there is a bit of Googling to do as I became stuck on scenarios not covered in the docs. Having said that, the API docs provide good coverage and it is open source. I am in no doubt, guilty of not reading enough.
-
-Finally, if anyone happens to find glaring mistakes in my understanding, then please let me know in the comments (thank you).
