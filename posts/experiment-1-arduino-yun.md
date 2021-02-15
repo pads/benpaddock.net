@@ -8,8 +8,8 @@ For Christmas I was lucky enough to receive an [Arduino Yun](https://href.li/?ht
 
 With this kit at my disposal, I decided to jump on the [Internet of Things](https://href.li/?http://en.wikipedia.org/wiki/Internet_of_Things) bandwagon and create a simple web app that outputs temperature and light sensor readings.  The system architecture is split into three sections:
 
-1. The hardware - Wiring up the breadboard. \
-2. The Arduino sketch - The code that reads input from the sensors and outputs the readings to both an LCD and to the web via an API. \
+1. The hardware - Wiring up the breadboard.
+2. The Arduino sketch - The code that reads input from the sensors and outputs the readings to both an LCD and to the web via an API.
 3. The web application - A single page that uses JavaScript to poll the API for the sensor data and displays the output in a more interesting way than just numbers.
 
 **Hardware Setup**
@@ -18,13 +18,13 @@ The first image below shows how the circuit is put together.  The microcontroll
 
 The second image is the schematic version of the circuit.  Both were created using the excellent [Fritzing app](https://href.li/?http://fritzing.org/home/).
 
-![Arduino breadboard diagram](/public/images/blog/tumblr_inline_pk1e6cz6ff1qbpbq8_500.jpg "Arduino Breadboard Diagram")
+![Arduino breadboard diagram](/images/blog/tumblr_inline_pk1e6cz6ff1qbpbq8_500.jpg "Arduino Breadboard Diagram")
 
-![Circuit diagram](/public/images/blog/tumblr_inline_pk1e6ctn9z1qbpbq8_500.jpg "Circuit Diagram")
+![Circuit diagram](/images/blog/tumblr_inline_pk1e6ctn9z1qbpbq8_500.jpg "Circuit Diagram")
 
 This image shows what it looks like in real life:
 
-![Arduino breadboard](/public/images/blog/tumblr_inline_pk1e6dgypd1qbpbq8_500.jpg "Arduino Breadboard")
+![Arduino breadboard](/images/blog/tumblr_inline_pk1e6dgypd1qbpbq8_500.jpg "Arduino Breadboard")
 
 The circuit consists of:
 
@@ -160,11 +160,11 @@ For the final part of this project, I decided to write a quick and dirty [Angula
 
 All of the assets are uploaded via SSH to a public www folder on the embedded Linux server.  The end result is this:
 
-![Web app showing thermometer and light](/public/images/blog/tumblr_inline_pk1e6d0mkh1qbpbq8_500.png "Web app")
+![Web app showing thermometer and light](/images/blog/tumblr_inline_pk1e6d0mkh1qbpbq8_500.png "Web app")
 
 The thermometer animates up and down as the temperature changes and the lightbulb opacity alters depending on the output of the light reading. Below is the LCD showing debug information from each API request:
 
-![Arduino with temperature output](/public/images/blog/tumblr_inline_pk1e6ehcxp1qbpbq8_500.jpg "Arduino With Output Display")
+![Arduino with temperature output](/images/blog/tumblr_inline_pk1e6ehcxp1qbpbq8_500.jpg "Arduino With Output Display")
 
 **Conclusion**
 
