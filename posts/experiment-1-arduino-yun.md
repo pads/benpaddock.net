@@ -4,9 +4,9 @@ description: For Christmas I was lucky enough to receive an Arduino Yun
   microcontroller board.
 date: 2015-01-05T12:15:00.000Z
 ---
-For Christmas I was lucky enough to receive an [Arduino Yun](https://href.li/?http://arduino.cc/en/Main/ArduinoBoardYun) microcontroller board.  A regular Arduino board allows components such as motors and sensors to be programmed and provides a fun way to hack with hardware and software combined.  The Yun version goes a step further and incorporates an embedded Linux server with WiFi and Ethernet connectivity.
+For Christmas I was lucky enough to receive an [Arduino Yun](http://arduino.cc/en/Main/ArduinoBoardYun) microcontroller board.  A regular Arduino board allows components such as motors and sensors to be programmed and provides a fun way to hack with hardware and software combined.  The Yun version goes a step further and incorporates an embedded Linux server with WiFi and Ethernet connectivity.
 
-With this kit at my disposal, I decided to jump on the [Internet of Things](https://href.li/?http://en.wikipedia.org/wiki/Internet_of_Things) bandwagon and create a simple web app that outputs temperature and light sensor readings.  The system architecture is split into three sections:
+With this kit at my disposal, I decided to jump on the [Internet of Things](http://en.wikipedia.org/wiki/Internet_of_Things) bandwagon and create a simple web app that outputs temperature and light sensor readings.  The system architecture is split into three sections:
 
 1. The hardware - Wiring up the breadboard.
 2. The Arduino sketch - The code that reads input from the sensors and outputs the readings to both an LCD and to the web via an API.
@@ -16,7 +16,7 @@ With this kit at my disposal, I decided to jump on the [Internet of Things](http
 
 The first image below shows how the circuit is put together.  The microcontroller is upside down because the orientation allows for the LCD to display text upright without the LCD covering up most of the breadboard.  
 
-The second image is the schematic version of the circuit.  Both were created using the excellent [Fritzing app](https://href.li/?http://fritzing.org/home/).
+The second image is the schematic version of the circuit.  Both were created using the excellent [Fritzing app](http://fritzing.org/home/).
 
 ![Arduino breadboard diagram](/images/blog/tumblr_inline_pk1e6cz6ff1qbpbq8_500.jpg "Arduino Breadboard Diagram")
 
@@ -37,13 +37,13 @@ The green wires that go up to the top of the Yun microcontroller capture input f
 
 The board can be powered via the micro USB connection between the standard USB and Ethernet connections.  A standard (non-Apple) smartphone charger does the job nicely here.  You can also use portable USB power banks if you want to move around to get different temperature and light readings more easily.
 
-All the parts supplied came from the [Arduino Starter Kit](https://href.li/?http://arduino.cc/en/Main/ArduinoStarterKit) which is a great introduction to hardware hacking as it includes a multitude of different sensors, LEDs, an electric motor and more.
+All the parts supplied came from the [Arduino Starter Kit](http://arduino.cc/en/Main/ArduinoStarterKit) which is a great introduction to hardware hacking as it includes a multitude of different sensors, LEDs, an electric motor and more.
 
 **Programming the Arduino**
 
-The Arduino can be programmed via code that is similar to C.  It is pretty straight forward to get to grips with and there are built-in libraries that you can use to work with various hardware components.  This code runs as firmware directly on the microcontroller.  There is an [IDE that you can download](https://href.li/?http://arduino.cc/en/main/software) to write the code and upload it to the microcontroller via USB, Bluetooth or WiFi/Ethernet.
+The Arduino can be programmed via code that is similar to C.  It is pretty straight forward to get to grips with and there are built-in libraries that you can use to work with various hardware components.  This code runs as firmware directly on the microcontroller.  There is an [IDE that you can download](http://arduino.cc/en/main/software) to write the code and upload it to the microcontroller via USB, Bluetooth or WiFi/Ethernet.
 
-With the Yun there is a library called Bridge that allows the code to communicate with the embedded Linux server.  This allows you to read inputs from the board and output them as a response to a web server request.  This means you can write a simple web server that provides an API for clients to obtain data from the sensors.  The code below (adapted from [the Bridge example](https://href.li/?http://arduino.cc/en/Tutorial/Bridge)) runs a web server with 2 endpoints.  One endpoint for reading temperature and one for light (via GET requests):
+With the Yun there is a library called Bridge that allows the code to communicate with the embedded Linux server.  This allows you to read inputs from the board and output them as a response to a web server request.  This means you can write a simple web server that provides an API for clients to obtain data from the sensors.  The code below (adapted from [the Bridge example](http://arduino.cc/en/Tutorial/Bridge)) runs a web server with 2 endpoints.  One endpoint for reading temperature and one for light (via GET requests):
 
 ```
 // Currently supported API (attached to /arduino):
@@ -156,7 +156,7 @@ void handleNotFound(YunClient client, String command) {
 
 **The Web Application**
 
-For the final part of this project, I decided to write a quick and dirty [AngularJS](https://href.li/?https://angularjs.org/) application that polls the API for data every 2.5 seconds.  It then updates some text on a web page with the current reading as well as updating a graphical representation of temperature ([an adaptation of a  CSS thermometer](https://href.li/?http://codepen.io/TommyCreenan/pen/pCslj/)) and light (a CSS light bulb similar to the thermometer).  
+For the final part of this project, I decided to write a quick and dirty [AngularJS](https://angularjs.org/) application that polls the API for data every 2.5 seconds.  It then updates some text on a web page with the current reading as well as updating a graphical representation of temperature ([an adaptation of a  CSS thermometer](http://codepen.io/TommyCreenan/pen/pCslj/)) and light (a CSS light bulb similar to the thermometer).  
 
 All of the assets are uploaded via SSH to a public www folder on the embedded Linux server.  The end result is this:
 
@@ -168,12 +168,12 @@ The thermometer animates up and down as the temperature changes and the lightbul
 
 **Conclusion**
 
-I found out after lots of testing that the temperature fluctuates too often so I suspect that the calculation is incorrect.  The sensor output probably needs to be [calibrated](https://href.li/?http://arduino.cc/en/tutorial/calibration).  
+I found out after lots of testing that the temperature fluctuates too often so I suspect that the calculation is incorrect.  The sensor output probably needs to be [calibrated](http://arduino.cc/en/tutorial/calibration).  
 
 The light reading is stable but I'm not sure what measurement it's outputting.  Some very brief googling suggests that by default it is using Lux (lx) which is Lumen per square meter.
 
 Putting the project together from scratch was great fun as it combined both hardware and software.  It made me aware just how much basic electronics knowledge I'd lost since learning it at school.  It was also great to see how easy it is to connect real world inputs such as temperature with the web.  This particular example is a one-way relationship and so it would be good in future to experiment with taking input from the web and outputting it on the Arduino.
 
-If you want to have a go at this yourself.  Please check out the [code on GitHub](https://href.li/?https://github.com/pads/arduino-yun-experiment) and ask any questions either as an issue there or as a comment here.
+If you want to have a go at this yourself.  Please check out the [code on GitHub](https://github.com/pads/arduino-yun-experiment) and ask any questions either as an issue there or as a comment here.
 
 Happy hacking!
