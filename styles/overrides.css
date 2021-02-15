@@ -14,3 +14,12 @@ nav a {
 a:hover {
     text-decoration: underline;
 }
+
+article ul {
+    margin-bottom: 0.75em;
+}
+
+article li {
+    list-style: circle;
+    margin-left: 1em;
+}
