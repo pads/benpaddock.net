@@ -24,7 +24,7 @@ export default function Layout({
                 <link href="/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32" />
                 <link rel="apple-touch-icon" href="/apple-icon.png"></link>
             </Head>
-            <div className="sm:w-4/12 md:w-3/12 bg-black p-8">
+            <div className="sm:w-4/12 md:w-3/12 bg-gray-800 p-8">
                 <header className="grid justify-items-center space-y-3">
                     <Image
                         priority
@@ -37,7 +37,9 @@ export default function Layout({
                     <h1 className="uppercase text-white">
                         <Link href={`/`}>Ben Paddock</Link>
                     </h1>
-                    <p className="text-gray-300">Full stack developer</p>
+                    <p className="text-gray-300 text-center">
+                        Developer, avid cyclist and currently attempting to tame a guitar.
+                    </p>
                 </header>
                 <nav className="mt-4 text-gray-300">
                     <ul>

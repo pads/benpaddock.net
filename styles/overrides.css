@@ -1,3 +1,16 @@
 p {
     margin-bottom: 0.75em;
 }
+
+a {
+    color: #065f46;
+}
+
+header a,
+nav a {
+    color: #34d399;
+}
+
+a:hover {
+    text-decoration: underline;
+}
