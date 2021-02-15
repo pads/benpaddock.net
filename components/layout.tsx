@@ -1,4 +1,5 @@
 import { faBlogger, faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
 import Image from "next/image";
@@ -32,7 +33,7 @@ export default function Layout({
                         className="rounded-full"
                         height={128}
                         width={128}
-                        alt="Ben Paddock"
+                        alt="Picture of Ben Paddock"
                     />
                     <h1 className="uppercase text-white">
                         <Link href={`/`}>Ben Paddock</Link>
@@ -42,8 +43,16 @@ export default function Layout({
                     </p>
                 </header>
                 <nav className="mt-4 text-gray-300">
-                    <ul>
-                        <li className="p-2">
+                    <ul className="flex flex-wrap flex-row sm:flex-col text-center sm:text-left">
+                        <li className="p-2 flex-auto">
+                            <Link href={`/about`}>
+                                <a>
+                                    <FontAwesomeIcon className="mr-2" icon={faUser} fixedWidth size="sm" />
+                                    About
+                                </a>
+                            </Link>
+                        </li>
+                        <li className="p-2 flex-auto">
                             <Link href={`/blog`}>
                                 <a>
                                     <FontAwesomeIcon className="mr-2" icon={faBlogger} fixedWidth size="sm" />
@@ -51,19 +60,19 @@ export default function Layout({
                                 </a>
                             </Link>
                         </li>
-                        <li className="p-2">
+                        <li className="p-2 flex-auto">
                             <a href="https://www.linkedin.com/in/benpaddock/" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon className="mr-2" icon={faLinkedin} fixedWidth size="sm" />
                                 LinkedIn
                             </a>
                         </li>
-                        <li className="p-2">
+                        <li className="p-2 flex-auto">
                             <a href="http://github.com/pads" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon className="mr-2" icon={faGithub} fixedWidth size="sm" />
                                 GitHub
                             </a>
                         </li>
-                        <li className="p-2">
+                        <li className="p-2 flex-auto">
                             <a href="http://twitter.com/_pads" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon className="mr-2" icon={faTwitter} fixedWidth size="sm" />
                                 Twitter
