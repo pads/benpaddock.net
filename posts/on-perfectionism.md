@@ -7,6 +7,8 @@ Perfectionism is the unrelenting pursuit of reaching the highest possible standa
 
 It ruins relationships because it's not enough for you to be perfect - you start paying attention to the flaws in others and wish them gone.  It's not their flaws that will dissapear...
 
+Being lazy becomes a problem, an uncomfortable feeling grows that you should be *doing something productive* (thanks, Capitalism).
+
 The bed-fellow of anxiety, you feel that if you don't constantly achieve, you will fail.  The fear of failure is crippling and pointless.  If we don't fail, how do we learn and grow?
 
 From the book [Less Perfect More Happy](https://smile.amazon.co.uk/Less-Perfect-More-Happy-Chris/dp/0957612370):
