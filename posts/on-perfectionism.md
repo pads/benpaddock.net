@@ -11,4 +11,6 @@ The bed-fellow of anxiety, you feel that if you don't constantly achieve, you wi
 
 I've stressed out and aged myself too much following this dead-end path.  It's time to accept that good is good enough.  We are mere pinpricks in this ever-expanding universe after all.
 
-Further reading - [Less Perfect More Happy](https://smile.amazon.co.uk/Less-Perfect-More-Happy-Chris/dp/0957612370)
+s
+
+From the book [Less Perfect More Happy](https://smile.amazon.co.uk/Less-Perfect-More-Happy-Chris/dp/0957612370)
