@@ -23,3 +23,11 @@ article li {
     list-style: circle;
     margin-left: 1em;
 }
+
+blockquote {
+    border-left: 2px solid #6b7280;
+    border-radius: 3px;
+    padding-left: 1em;
+    font-family: "Roboto Slab", "Open Sans", serif;
+    font-style: italic;
+}
