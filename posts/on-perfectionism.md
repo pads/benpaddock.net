@@ -3,9 +3,9 @@ title: On Perfectionism
 description: On Perfectionism
 date: 2021-02-16T09:03:35.147Z
 ---
-Perfectionism is the unrelenting pursuit of reaching the highest possible standards and then still left wanting more.  It is a heavy burden that achieves nothing.  
+Perfectionism is the unrelenting pursuit of reaching the highest possible standards and then still left wanting more.  It is a heavy burden put upon one's self.  
 
-It ruins relationships because it's not enough for you to be perfect - you start paying attention to the flaws in others and wish them gone.  It's not their flaws that will dissapear...
+It ruins relationships because it's not enough for you to be perfect - you start paying attention to the flaws in others and wish them gone.  You soon find out that it's not their flaws that will dissapear...
 
 Being lazy becomes a problem, an uncomfortable feeling grows that you should be *doing something productive* (thanks, Capitalism).
 
