@@ -2,7 +2,7 @@
 title: The Value of All Emotions
 description: I used to think that I was too anxious and angry.  This led me to
   believe that I should work out how to get rid of it.
-date: 2021-02-16T10:05:00.868Z
+date: 2021-02-22T13:59:54.493Z
 ---
 I used to think that I was too anxious and angry.  This led me to believe that I should work out how to get rid of them.  However, after lots of reading and some self-reflection I'm coming to realise that you can't get rid of emotions, they are all there for a reason.  Instead, you have to give them space and respond accordingly (part of what can be referred to as [emotional agility](https://smile.amazon.co.uk/dp/B017SAEYNI)).  This means accepting them all equally, including the ones that can make you feel uncomfortable.
 
