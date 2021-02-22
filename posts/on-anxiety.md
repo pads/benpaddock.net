@@ -1,5 +1,5 @@
 ---
-title: Valuing all Emotions Equally
+title: The Value of All Emotions
 description: I used to think that I was too anxious and angry.  This led me to
   believe that I should work out how to get rid of it.
 date: 2021-02-16T10:05:00.868Z
