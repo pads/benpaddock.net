@@ -4,7 +4,7 @@ description: I used to think that I was too anxious and angry.  This led me to
   believe that I should work out how to get rid of it.
 date: 2021-02-16T10:05:00.868Z
 ---
-I used to think that I was too anxious and angry.  This led me to believe that I should work out how to get rid of it.  However, after lots of reading and some self-reflection I've come to realise that you can't get rid of emotions, they are all there for a reason.  Instead, you have to give them space and respond accordingly (part of what can be referred to as [emotional agility](https://smile.amazon.co.uk/dp/B017SAEYNI)).  This means accepting them all, equally including the ones that can make you feel uncomfortable.
+I used to think that I was too anxious and angry.  This led me to believe that I should work out how to get rid of them.  However, after lots of reading and some self-reflection I've come to realise that you can't get rid of emotions, they are all there for a reason.  Instead, you have to give them space and respond accordingly (part of what can be referred to as [emotional agility](https://smile.amazon.co.uk/dp/B017SAEYNI)).  This means accepting them all, equally including the ones that can make you feel uncomfortable.
 
 In the Pixar film [Inside Out](https://www.imdb.com/title/tt2096673/), we follow characters that represent each emotion inside a girl's mind.  One of the characters is sadness and the other characters try to keep her from getting involved in how the girl feels.  We follow the girl as she moves home and has to deal with a lot of change (a new school, for example).
 
