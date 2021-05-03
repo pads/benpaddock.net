@@ -41,12 +41,14 @@
         "react-dom": "17.0.1",
         "remark": "^13.0.0",
         "remark-html": "^13.0.1",
+        "rss": "^1.2.2",
         "tailwindcss": "^2.1.2"
     },
     "devDependencies": {
         "@axe-core/cli": "^4.1.1",
         "@types/node": "^14.14.43",
         "@types/react": "^17.0.4",
+        "@types/rss": "0.0.28",
         "@typescript-eslint/eslint-plugin": "^4.22.0",
         "@typescript-eslint/parser": "^4.22.0",
         "eslint": "^7.25.0",

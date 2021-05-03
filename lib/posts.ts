@@ -21,6 +21,13 @@ export type PostData = {
     contentHtml: string;
 };
 
+export type PostRssData = {
+    id: string;
+    title: string;
+    description: string;
+    date: string;
+};
+
 export function getAllPostIds(): IdParams[] {
     const fileNames = fs.readdirSync(postsDirectory);
     return fileNames.map((fileName) => {
@@ -50,7 +57,7 @@ export async function getPostData(id: string): Promise<PostData> {
     };
 }
 
-export function getSortedPostsData(): Array<{ id: string; title: string; date: string }> {
+export function getSortedPostsData(): Array<PostRssData> {
     const fileNames = fs.readdirSync(postsDirectory);
     const allPostsData = fileNames.map((fileName) => {
         const id = fileName.replace(/\.md$/, "");
@@ -63,6 +70,7 @@ export function getSortedPostsData(): Array<{ id: string; title: string; date: s
         return {
             id,
             title: matterResult.data.title,
+            description: matterResult.data.description,
             date: matterResult.data.date.toISOString(),
         };
     });
