@@ -11,7 +11,7 @@
         "axe": "axe localhost:3000 --exit",
         "a11y": "start-server-and-test start http://localhost:3000 axe",
         "test": "npm run lintci",
-        "postinstall": "npx husky install"
+        "postinstall": "npx husky install && npx webdriver-manager update"
     },
     "husky": {
         "hooks": {
@@ -25,41 +25,44 @@
         }
     },
     "dependencies": {
-        "@fontsource/raleway": "^4.2.0",
-        "@fontsource/roboto-slab": "^4.2.0",
-        "@fortawesome/fontawesome-svg-core": "^1.2.34",
-        "@fortawesome/free-brands-svg-icons": "^5.15.2",
-        "@fortawesome/free-regular-svg-icons": "^5.15.2",
-        "@fortawesome/free-solid-svg-icons": "^5.15.2",
+        "@fontsource/raleway": "^4.2.2",
+        "@fontsource/roboto-slab": "^4.2.2",
+        "@fortawesome/fontawesome-svg-core": "^1.2.35",
+        "@fortawesome/free-brands-svg-icons": "^5.15.3",
+        "@fortawesome/free-regular-svg-icons": "^5.15.3",
+        "@fortawesome/free-solid-svg-icons": "^5.15.3",
         "@fortawesome/react-fontawesome": "^0.1.14",
-        "autoprefixer": "^10.2.4",
-        "date-fns": "^2.17.0",
-        "gray-matter": "^4.0.2",
-        "next": "10.0.6",
-        "postcss": "^8.2.5",
+        "autoprefixer": "^10.2.5",
+        "date-fns": "^2.21.1",
+        "gray-matter": "^4.0.3",
+        "next": "^10.2.0",
+        "postcss": "^8.2.13",
         "react": "17.0.1",
         "react-dom": "17.0.1",
         "remark": "^13.0.0",
         "remark-html": "^13.0.1",
-        "tailwindcss": "^2.0.2"
+        "rss": "^1.2.2",
+        "tailwindcss": "^2.1.2"
     },
     "devDependencies": {
         "@axe-core/cli": "^4.1.1",
-        "@types/node": "^14.14.25",
-        "@types/react": "^17.0.1",
-        "@typescript-eslint/eslint-plugin": "^4.14.2",
-        "@typescript-eslint/parser": "^4.14.2",
-        "eslint": "^7.19.0",
+        "@types/node": "^14.14.43",
+        "@types/react": "^17.0.4",
+        "@types/rss": "0.0.28",
+        "@typescript-eslint/eslint-plugin": "^4.22.0",
+        "@typescript-eslint/parser": "^4.22.0",
+        "eslint": "^7.25.0",
         "eslint-config-prettier": "^7.2.0",
-        "eslint-plugin-prettier": "^3.3.1",
-        "eslint-plugin-react": "^7.22.0",
-        "eslint-plugin-unused-imports": "^1.0.3",
+        "eslint-plugin-prettier": "^3.4.0",
+        "eslint-plugin-react": "^7.23.2",
+        "eslint-plugin-unused-imports": "^1.1.1",
         "husky": "^4.3.8",
         "import-sort-style-module": "^6.0.0",
         "prettier": "^2.2.1",
         "prettier-plugin-import-sort": "0.0.6",
         "pretty-quick": "^3.1.0",
-        "start-server-and-test": "^1.12.0",
-        "typescript": "^4.1.3"
+        "start-server-and-test": "^1.12.1",
+        "typescript": "^4.2.4",
+        "webdriver-manager": "^12.1.8"
     }
 }
