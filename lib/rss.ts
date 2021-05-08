@@ -14,7 +14,7 @@ export function generateFeed(posts: Array<PostRssData>): string {
             guid: post.id,
             title: post.title,
             description: post.description,
-            url: `https://benpaddock.net/${post.id}`,
+            url: `https://benpaddock.net/blog/${post.id}`,
             date: post.date,
             author: "Ben Paddock",
         });
