@@ -13,6 +13,7 @@ module.exports = {
         },
     },
     extends: [
+        "plugin:@next/next/recommended",
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
         "prettier/@typescript-eslint",
