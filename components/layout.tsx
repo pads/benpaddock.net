@@ -1,4 +1,4 @@
-import { faBlogger, faGithub, faLinkedin, faMastodon } from "@fortawesome/free-brands-svg-icons";
+import { faBlogger, faGithub, faLinkedin, faMastodon, faSpotify } from "@fortawesome/free-brands-svg-icons";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
@@ -39,7 +39,7 @@ export default function Layout({
                         <Link href={`/`}>Ben Paddock</Link>
                     </h1>
                     <p className="text-gray-300 text-center">
-                        Developer, avid cyclist and currently attempting to tame a guitar.
+                        Developer, avid cyclist and coffee drinker.
                     </p>
                 </header>
                 <nav className="mt-4 text-gray-300">
@@ -76,6 +76,12 @@ export default function Layout({
                             <a href="https://hachyderm.io/@pads" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon className="mr-2" icon={faMastodon} fixedWidth size="sm" />
                                 Mastodon
+                            </a>
+                        </li>
+                        <li className="p-2 flex-auto">
+                            <a href="https://open.spotify.com/user/essexpads"  target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon className="mr-2" icon={faSpotify} fixedWidth size="sm" />
+                                Spotify
                             </a>
                         </li>
                     </ul>

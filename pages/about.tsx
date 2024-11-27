@@ -79,15 +79,8 @@ export default function About(): JSX.Element {
                 <br />
                 <p>
                     I have a keen interest in music. I have been a DJ in the past, presenting on university radio and
-                    playing in clubs. At present I am learning to play the electric guitar.
+                    playing in clubs. I have a Fender electric guitar that I should really be playing more!
                 </p>
-                <iframe
-                    src="https://open.spotify.com/follow/1/?uri=spotify:user:essexpads&size=detail&theme=light"
-                    width="300"
-                    height="56"
-                    scrolling="no"
-                    frameBorder="0"
-                ></iframe>
             </section>
         </Layout>
     );
