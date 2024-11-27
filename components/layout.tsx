@@ -1,4 +1,4 @@
-import { faBlogger, faGithub, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faBlogger, faGithub, faLinkedin, faMastodon } from "@fortawesome/free-brands-svg-icons";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
@@ -67,15 +67,15 @@ export default function Layout({
                             </a>
                         </li>
                         <li className="p-2 flex-auto">
-                            <a href="http://github.com/pads" target="_blank" rel="noreferrer">
+                            <a href="https://github.com/pads" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon className="mr-2" icon={faGithub} fixedWidth size="sm" />
                                 GitHub
                             </a>
                         </li>
                         <li className="p-2 flex-auto">
-                            <a href="http://twitter.com/_pads" target="_blank" rel="noreferrer">
-                                <FontAwesomeIcon className="mr-2" icon={faTwitter} fixedWidth size="sm" />
-                                Twitter
+                            <a href="https://hachyderm.io/@pads" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon className="mr-2" icon={faMastodon} fixedWidth size="sm" />
+                                Mastodon
                             </a>
                         </li>
                     </ul>
