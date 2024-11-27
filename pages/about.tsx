@@ -3,8 +3,10 @@ import { faBiking, faLaptopCode, faMusic } from "@fortawesome/free-solid-svg-ico
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import Layout from "../components/layout";
+import { GetStaticProps } from "next";
+import { getLiveTrackUrl } from "../lib/liveTrack";
 
-export default function About(): JSX.Element {
+export default function About({ liveTrackUrl }: { liveTrackUrl: string }): JSX.Element {
     return (
         <Layout title="About" description="About Ben Paddock">
             <section>
@@ -63,12 +65,18 @@ export default function About(): JSX.Element {
                     . If you are into cycling and live around the area, I highly recommend joining!
                 </p>
                 <iframe
+                    className="mb-2.5"
                     height="160"
                     width="300"
                     frameBorder="0"
                     scrolling="no"
                     src="https://www.strava.com/athletes/176806/activity-summary/9dfcb69a89547261a71bd324469120368db011e7"
                 ></iframe>
+                <p>
+                    <a href={liveTrackUrl} target="_blank" rel="noreferrer">
+                        See where I am cycling right now
+                    </a>
+                </p>
             </section>
             <br />
             <section>
@@ -85,3 +93,11 @@ export default function About(): JSX.Element {
         </Layout>
     );
 }
+
+export const getStaticProps: GetStaticProps = async () => {
+    return {
+        props: {
+            liveTrackUrl: await getLiveTrackUrl(),
+        },
+    };
+};
