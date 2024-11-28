@@ -30,6 +30,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Pages are added within the `pages` directory.
 - Blog posts are markdown files added within the `posts` directory.
 
+## CMS
+
+Open [http://localhost:3000/admin/index.html](http://localhost:3000/admin/index.html)
+- After logging in you can create blog posts using the rich text editor.
+- Saving a draft creates/updates a pull request with a markdown file.
+- Publishing merges the pull request.
+
 ## Deployment
 
 This happens automatically on merge to master.
