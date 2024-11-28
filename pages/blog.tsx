@@ -20,9 +20,7 @@ export default function Blog({
                 {allPostsData.map(({ id, date, title }) => (
                     <li className="mb-4" key={id}>
                         <Link href={`/blog/${id}`}>
-                            <a>
-                                <h2 className="text-2xl font-bold">{title}</h2>
-                            </a>
+                            <h2 className="text-2xl font-bold">{title}</h2>
                         </Link>
                         <small>
                             <Date dateString={date} />

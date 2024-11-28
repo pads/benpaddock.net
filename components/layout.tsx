@@ -44,18 +44,14 @@ export default function Layout({
                     <ul className="flex flex-wrap flex-row sm:flex-col text-center sm:text-left">
                         <li className="p-2 flex-auto">
                             <Link href={`/about`}>
-                                <a>
-                                    <FontAwesomeIcon className="mr-2" icon={faUser} fixedWidth size="sm" />
-                                    About
-                                </a>
+                                <FontAwesomeIcon className="mr-2" icon={faUser} fixedWidth size="sm" />
+                                About
                             </Link>
                         </li>
                         <li className="p-2 flex-auto">
                             <Link href={`/blog`}>
-                                <a>
-                                    <FontAwesomeIcon className="mr-2" icon={faBlogger} fixedWidth size="sm" />
-                                    Blog
-                                </a>
+                                <FontAwesomeIcon className="mr-2" icon={faBlogger} fixedWidth size="sm" />
+                                Blog
                             </Link>
                         </li>
                         <li className="p-2 flex-auto">
