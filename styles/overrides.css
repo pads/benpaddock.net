@@ -1,6 +1,9 @@
 p {
     margin-bottom: 0.75em;
 }
+p a {
+    text-decoration: underline;
+}
 
 a {
     color: #065f46;
