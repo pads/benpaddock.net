@@ -1,9 +1,0 @@
-dist: xenial
-addons:
-    chrome: stable
-language: node_js
-before_script:
-    - npm run build
-script:
-    - npm run a11y
-    - npm test
