@@ -38,9 +38,7 @@ export default function Layout({
                     <h1 className="uppercase text-white">
                         <Link href={`/`}>Ben Paddock</Link>
                     </h1>
-                    <p className="text-gray-300 text-center">
-                        Developer, avid cyclist and coffee drinker.
-                    </p>
+                    <p className="text-gray-300 text-center">Developer, avid cyclist and coffee drinker.</p>
                 </header>
                 <nav className="mt-4 text-gray-300">
                     <ul className="flex flex-wrap flex-row sm:flex-col text-center sm:text-left">
@@ -79,7 +77,7 @@ export default function Layout({
                             </a>
                         </li>
                         <li className="p-2 flex-auto">
-                            <a href="https://open.spotify.com/user/essexpads"  target="_blank" rel="noreferrer">
+                            <a href="https://open.spotify.com/user/essexpads" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon className="mr-2" icon={faSpotify} fixedWidth size="sm" />
                                 Spotify
                             </a>
