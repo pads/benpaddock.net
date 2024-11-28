@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.com/pads/benpaddock.net.svg?branch=master)](https://travis-ci.com/pads/benpaddock.net)
+![CI workflow](https://github.com/pads/benpaddock.net/actions/workflows/ci.yml/badge.svg)
+![Website Deploy](https://deploy-badge.vercel.app/?url=http%3A%2F%2Fwww.benpaddock.net&name=website)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
