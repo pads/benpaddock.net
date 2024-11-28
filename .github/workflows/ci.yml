@@ -27,6 +27,8 @@ jobs:
                   install-chromedriver: true
             - name: Install Vercel CLI
               run: npm install --global vercel@latest
+            - name: Link Vercel project to repo
+              run: vercel link --yes --token=${{ secrets.VERCEL_TOKEN }}
             - name: Pull Vercel environment variables
               run: vercel env pull --token=${{ secrets.VERCEL_TOKEN }}
             - run: npm ci
