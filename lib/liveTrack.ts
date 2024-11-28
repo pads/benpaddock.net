@@ -1,4 +1,4 @@
 export async function getLiveTrackUrl(): Promise<string> {
-    const response = await fetch("https://d2bk5wag765gxi.cloudfront.net/url");
+    const response = await fetch(process.env.LIVE_TRACK_URL);
     return await response.text();
 }
