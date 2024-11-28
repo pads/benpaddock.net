@@ -14,9 +14,7 @@ export default function BlogPost({ post }: { post: PostData }): JSX.Element {
             <br />
             ---
             <br />
-            <Link href={`/blog`}>
-                <a>More posts</a>
-            </Link>
+            <Link href={`/blog`}>More posts</Link>
         </article>
     );
 }
