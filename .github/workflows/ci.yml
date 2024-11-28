@@ -1,31 +1,31 @@
 name: benpaddock.net CI
 
 on:
-  push:
-    branches: ["master"]
-  pull_request:
-    branches: ["master"]
+    push:
+        branches: ["master"]
+    pull_request:
+        branches: ["master"]
 
 jobs:
-  test:
-    runs-on: ubuntu-latest
+    test:
+        runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [22.x]
+        strategy:
+            matrix:
+                node-version: [22.x]
 
-    steps:
-      - uses: actions/checkout@v4
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v4
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: "npm"
-      - uses: browser-actions/setup-chrome@v1
-        with:
-          chrome-version: latest
-          install-chromedriver: true
-      - run: npm ci
-      - run: npm run build
-      - run: npm run a11y
-      - run: npm test
+        steps:
+            - uses: actions/checkout@v4
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@v4
+              with:
+                  node-version: ${{ matrix.node-version }}
+                  cache: "npm"
+            - uses: browser-actions/setup-chrome@v1
+              with:
+                  chrome-version: latest
+                  install-chromedriver: true
+            - run: npm ci
+            - run: npm run build
+            - run: npm run a11y
+            - run: npm test
