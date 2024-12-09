@@ -3,8 +3,6 @@ title: My First Cyclocross Season
 description: A step outside my comfort zone
 date: 2024-12-13T12:00:00.000Z
 ---
-![]()
-
 After completing a [tour of the French Alps](https://en.wikipedia.org/wiki/Route_des_Grandes_Alpes) this summer I was left wondering what my next challenge could be. When the road season ends a new season starts...Cyclo-cross (CX). I'd never participated in this discipline before other than once volunteering at my [local club's](https://www.wlrcyclingclub.co.uk/) event at Abbey Stadium in Redditch. I thought it would be a good way to keep up the fitness over winter and learn some new skills.
 
 CX involves taking a drop-bar solid frame bike with some narrow knobbly tyres on and hooning it through grass, mud and woodlands with the odd obstacle thrown in for good measure.  I purchased a gravel bike a couple of years ago and had never really put it through its paces.  All I had to do was don it with some tyres that could handle mud and register for the [West Midlands CX League](https://wmccl.co.uk/). This was an 11 race series at various locations in the area with races for all ages from under 6s to 50+ veterans.  I was in the vets 40+ category and this was the last race of the day, so everyone before me could churn up the course for me, lovely.
