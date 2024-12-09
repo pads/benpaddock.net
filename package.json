@@ -47,7 +47,7 @@
     },
     "devDependencies": {
         "@axe-core/cli": "^4.10.1",
-        "@next/eslint-plugin-next": "^15.0.3",
+        "@next/eslint-plugin-next": "^15.0.4",
         "@types/node": "^22.10.1",
         "@types/react": "^18.3.12",
         "@types/rss": "0.0.32",
