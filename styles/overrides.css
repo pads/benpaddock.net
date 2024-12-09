@@ -34,3 +34,13 @@ blockquote {
     font-family: "Roboto Slab", "Open Sans", serif;
     font-style: italic;
 }
+
+h2 {
+    font-weight: bold;
+}
+
+@media (min-width: 640px) {
+    img {
+        max-height: 320px;
+    }
+}
