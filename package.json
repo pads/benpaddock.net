@@ -61,7 +61,7 @@
         "eslint-plugin-unused-imports": "^4.1.4",
         "husky": "^9.1.7",
         "import-sort-style-module": "^6.0.0",
-        "prettier": "^3.4.1",
+        "prettier": "^3.4.2",
         "prettier-plugin-import-sort": "0.0.7",
         "start-server-and-test": "^2.0.8",
         "typescript": "^5.7.2",
