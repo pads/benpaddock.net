@@ -1,7 +1,7 @@
 ---
 title: My First Cyclocross Season
 description: A step outside my comfort zone
-date: 2024-12-13T12:00:00.000Z
+date: 2024-12-10T12:00:00.000Z
 ---
 After completing a [tour of the French Alps](https://en.wikipedia.org/wiki/Route_des_Grandes_Alpes) this summer I was left wondering what my next challenge could be. When the road season ends a new season starts...Cyclo-cross (CX). I'd never participated in this discipline before other than once volunteering at my [local club's](https://www.wlrcyclingclub.co.uk/) event at Abbey Stadium in Redditch. I thought it would be a good way to keep up the fitness over winter and learn some new skills.
 
@@ -43,7 +43,7 @@ I was feeling a bit under the weather and in hindsight should not have raced thi
 
 There were a lot of off-camber banks and a pipe that even I could bunny-hop over. The start was feisty as I was gridded higher up than normal and someone way faster than me shoulder barged their way through from the back. It's often the way when there are bottlenecks in the course, position is key to get over the first climb otherwise you are off the bike and running it.
 
-## Round 9 - Redditch
+## Round 9 - Redditch (Abbey Stadium)
 
 This round was co-hosted by Redditch and my local club Warwick Lanterne Rouge. I was volunteering before my race on car park and crossing point duties. It was fun squeezing in 400 competitors throughout the day! I really got to appreciate how much goes on behind the scenes at these races, so a big thank you to everyone who mucked in this year, it's much appreciated!
 
@@ -51,7 +51,7 @@ This round was co-hosted by Redditch and my local club Warwick Lanterne Rouge. I
 
 This was the point in my CX career when I realised that yes, there are many different kinds of mud and this kind was the "I'm not going to give you any grip" kind. I crashed in practice when I went around a corner too quickly and my front wheel washed out. I landed gear-side up (thankfully) and slid for quite a while. Luckily when you crash in CX it's usually a soft landing, but the evidence of crashing is hard to get rid of when a giant strip of mud is down your entire left-hand side of your body!
 
-## Round 11 - Sandwell Valley
+## Round 11 - Sandwell Valley Park
 
 I would describe this race as cross country running whilst carrying your bike. It's December now and the wet winter is upon us. This was nothing but a pure mud bath. This course destroyed bikes and riders. It looked slow watching the races before mine because it was. Every pedal stroke was max effort even on the flat. You didn't get any recovery time going downhill either.
 
