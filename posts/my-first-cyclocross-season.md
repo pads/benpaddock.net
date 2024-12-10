@@ -1,7 +1,7 @@
 ---
 title: My First Cyclocross Season
 description: A step outside my comfort zone
-date: 2024-12-10T12:00:00.000Z
+date: 2024-12-10T09:45:00.000Z
 ---
 After completing a [tour of the French Alps](https://en.wikipedia.org/wiki/Route_des_Grandes_Alpes) this summer I was left wondering what my next challenge could be. When the road season ends a new season starts...Cyclo-cross (CX). I'd never participated in this discipline before other than once volunteering at my [local club's](https://www.wlrcyclingclub.co.uk/) event at Abbey Stadium in Redditch. I thought it would be a good way to keep up the fitness over winter and learn some new skills.
 
