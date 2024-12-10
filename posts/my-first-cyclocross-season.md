@@ -9,7 +9,7 @@ CX involves taking a drop-bar solid frame bike with some narrow knobbly tyres on
 
 Before the first race, I realised I was pretty clueless about this kind of riding. I was comfortable riding on canal tow paths and gravel tracks but not negotiating off-camber muddy banks and twisty S-bends.  I had heard that another local club, [Peddlamaniacs](https://www.peddlamaniacs.com/), ran CX practice sessions on Thursday evenings.  On the first session I attended we practiced mounting and dismounting (you clip into your pedals just like a road bike but use MTB style pedals as they cope better with mud).  From the get-go I had already fallen off on the slippery grass and struck my right calf with the pedal, resulting in a nasty gash. What a great start!
 
-What follows are brief race reports for each round I attended. I didn't go to every round due to not wanting to travel to far or, more likely, wimping out because of the weather.
+What follows are brief race reports for each round I attended. I didn't go to every round due to not wanting to travel too far or, more likely, wimping out because of the weather.
 
 ## Round 1 - Ullenhall
 
@@ -23,9 +23,9 @@ The nerves were high but what helped was the big turn out from the club, the cam
 
 This was my first taste of a technical course. This had boards to jump, steps to climb and an off-camber bank to negotiate. This was at the end of September and the wet weather had started, so there was a bit of mud to contend with too.
 
-![Riding across an off camber bank](/images/blog/studley.jpg "Taking the completely wrong line here")
+![Riding across an off-camber bank](/images/blog/studley.jpg "Taking the completely wrong line here")
 
-I tempered my start this time but got a bit scared of some of the deep mud patches and the steep off -camber bank towards the end of the lap. The mounting and dismounting skills I had learned at Peddlamaniacs paid off as I was quick over the boards. My climbing legs also helped me gain a couple of places on the steep hill that was on this course.
+I tempered my start this time but got a bit scared of some of the deep mud patches and the steep off-camber bank towards the end of the lap. The mounting and dismounting skills I had learned at Peddlamaniacs paid off as I was quick over the boards. My climbing legs also helped me gain a couple of places on the steep hill that was on this course.
 
 ## Rounds 5 and 6 - Heart of England Centre
 
@@ -37,7 +37,7 @@ Round 6 couldn't have been more contrasting. It had rained a lot and the course 
 
 ## Round 7 - Worcester University (Lakeside Campus)
 
-I was feeling a bit under the weather and in hindsight should not have raced this one. The course was fairly dry and not too technical but had long straights and so was more of a power circuit which doesn't suit me at all, especially with a respiratory illness! 
+I was feeling a bit under the weather and in hindsight should not have raced this one. The course was fairly dry and not too technical but had long straights and so was more of a power circuit which didn't suit me at all, especially with a respiratory illness! 
 
 ![John on the left and Ben on the right posing for a selfie post-race](/images/blog/ben-paddock-strava-profile-3-.jpg "Fellow club member and competitor John feeling the pain of 50 minutes at full gas")
 
