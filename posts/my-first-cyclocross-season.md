@@ -63,6 +63,8 @@ I had to stop several times to remove mud from various crevices in my bike becau
 
 Despite the challenges and not being physically suited to this kind of racing, I loved it and I will be back next season. I've got a few lessons to take away from this. Firstly, embrace the mud and trust the bike. Loosen my grip on the bars and my anxiety. Secondly, train more and get the body used to hard efforts. 50 minutes at full gas is a very different kind of suffering to hours at slow speed going up mountains.
 
+Hats off to the West Midlands CX League and all the clubs involved in putting the races together. The racing was hard but polite. I received a lot of encouragement and plenty of heads-up from the faster riders who lapped me. It's great that you get points no matter where you finish and it encourages regular participation. Despite usually being towards the back by the finish of each race, I ended up 24th out of 64 who participated in my category (83 registered).
+
 I'd also like to give a huge thanks to my fellow club mates for the support, advice, WhatsApp banter and general great company. Merry Crossmas!
 
 ![4 very muddy men posing with their bikes at the finish](/images/blog/ben-paddock-strava-profile-5-.jpg "Did someone say mud-life crisis?")
