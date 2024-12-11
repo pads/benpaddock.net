@@ -1,4 +1,4 @@
-import { faBlogger, faGithub, faLinkedin, faMastodon, faSpotify } from "@fortawesome/free-brands-svg-icons";
+import { faBlogger, faBluesky, faGithub, faLinkedin, faMastodon, faSpotify } from "@fortawesome/free-brands-svg-icons";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
@@ -70,6 +70,12 @@ export default function Layout({
                             <a href="https://hachyderm.io/@pads" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon className="mr-2" icon={faMastodon} fixedWidth size="sm" />
                                 Mastodon
+                            </a>
+                        </li>
+                        <li className="p-2 flex-auto">
+                            <a href="https://bsky.app/profile/essexpads.bsky.social" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon className="mr-2" icon={faBluesky} fixedWidth size="sm" />
+                                Bluesky
                             </a>
                         </li>
                         <li className="p-2 flex-auto">
