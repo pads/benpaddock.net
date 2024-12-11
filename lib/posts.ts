@@ -19,6 +19,7 @@ export type PostData = {
     description: string;
     date: string;
     contentHtml: string;
+    image: string | null;
 };
 
 export type PostRssData = {
@@ -48,11 +49,14 @@ export async function getPostData(id: string): Promise<PostData> {
     const processedContent = await remark().use(html).process(matterResult.content);
     const contentHtml = processedContent.toString();
 
+    const image = contentHtml.match(/src\s*=\s*"(?<url>.+?)"/)?.groups?.url || null;
+
     return {
         id,
         title: matterResult.data.title,
         description: matterResult.data.description,
         date: matterResult.data.date.toISOString(),
+        image,
         contentHtml,
     };
 }

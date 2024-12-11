@@ -8,7 +8,7 @@ import { getLiveTrackUrl } from "../lib/liveTrack";
 
 export default function About({ liveTrackUrl }: { liveTrackUrl: string }): JSX.Element {
     return (
-        <Layout title="About" description="About Ben Paddock">
+        <Layout title="About" description="About Ben Paddock" url="https://benpaddock.net/about">
             <section>
                 <div className="flex flex-row items-center">
                     <FontAwesomeIcon className="mr-2" icon={faWindowRestore} fixedWidth size="sm" />
