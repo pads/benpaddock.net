@@ -1,8 +1,14 @@
 name: Mastodon Post
 
 on:
-  push:
+  workflow_run:
+    # This is temporary until Vercel deployment is moved to GitHub actions
+    # This should buy enough time for deployment to finish before posting to
+    # with the live URL to the latest blog
+    workflows: ["benpaddock.net CI"]
     branches: ["master"]
+    types:
+      - completed
 
 jobs:
   build:
