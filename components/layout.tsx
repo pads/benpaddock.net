@@ -5,7 +5,7 @@ import {
     faLinkedin,
     faMastodon,
     faSpotify,
-    faStrava
+    faStrava,
 } from "@fortawesome/free-brands-svg-icons";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
