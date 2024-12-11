@@ -1,4 +1,12 @@
-import { faBlogger, faBluesky, faGithub, faLinkedin, faMastodon, faSpotify } from "@fortawesome/free-brands-svg-icons";
+import {
+    faBlogger,
+    faBluesky,
+    faGithub,
+    faLinkedin,
+    faMastodon,
+    faSpotify,
+    faStrava
+} from "@fortawesome/free-brands-svg-icons";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Head from "next/head";
@@ -82,6 +90,12 @@ export default function Layout({
                             <a href="https://open.spotify.com/user/essexpads" target="_blank" rel="noreferrer">
                                 <FontAwesomeIcon className="mr-2" icon={faSpotify} fixedWidth size="sm" />
                                 Spotify
+                            </a>
+                        </li>
+                        <li className="p-2 flex-auto">
+                            <a href="https://www.strava.com/athletes/176806" target="_blank" rel="noreferrer">
+                                <FontAwesomeIcon className="mr-2" icon={faStrava} fixedWidth size="sm" />
+                                Strava
                             </a>
                         </li>
                     </ul>
