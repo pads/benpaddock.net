@@ -18,7 +18,7 @@ export default function Blog({
         <Layout
             title="All Blog Posts"
             description="Index of all blog posts on the site"
-            url="https://benpaddock.net/blog"
+            url={`${process.env.HOST}/blog`}
         >
             <ul>
                 {allPostsData.map(({ id, date, title }) => (

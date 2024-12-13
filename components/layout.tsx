@@ -23,7 +23,7 @@ export default function Layout({
     title: string;
     description: string;
     url: string;
-    image?: string;
+    image?: string | null;
     children: React.ReactNode;
 }): JSX.Element {
     return (
@@ -35,7 +35,7 @@ export default function Layout({
                 <meta property="og:url" content={url} />
                 <meta
                     property="og:image"
-                    content={image ? `https://benpaddock.net${image}` : "https://benpaddock.net/images/profile.jpg"}
+                    content={image ? `${process.env.HOST}${image}` : `${process.env.HOST}/images/profile.jpg`}
                 />
                 <meta property="og:locale" content="en_GB" />
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />

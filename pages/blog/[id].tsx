@@ -23,7 +23,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
     const postData = await getPostData(params.id as string);
-    const url = `https://benpaddock.net/blog/${slug(postData.title)}`;
+    const url = `${process.env.HOST}/blog/${slug(postData.title)}`;
     return {
         props: {
             postData,
