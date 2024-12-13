@@ -16,18 +16,30 @@ import Link from "next/link";
 export default function Layout({
     title,
     description,
+    url,
+    image,
     children,
 }: {
     title: string;
     description: string;
+    url: string;
+    image?: string | null;
     children: React.ReactNode;
 }): JSX.Element {
     return (
         <div className="flex flex-col sm:flex-row min-h-screen h-full">
             <Head>
                 <title>{title}</title>
+                <meta property="og:title" content={title} />
+                <meta property="og:description" content={description} />
+                <meta property="og:url" content={url} />
+                <meta
+                    property="og:image"
+                    content={image ? `${process.env.HOST}${image}` : `${process.env.HOST}/images/profile.jpg`}
+                />
+                <meta property="og:locale" content="en_GB" />
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-                <meta name="description" content={description}></meta>
+                <meta name="description" content={description} />
                 <link rel="icon" href="/icons/favicon.ico" />
                 <link href="/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16" />
                 <link href="/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32" />

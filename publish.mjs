@@ -5,7 +5,6 @@ import { resolve } from "path";
 import matter from "gray-matter";
 import slug from "slug";
 
-const HOST = "https://benpaddock.net";
 const MASTODON_API = "https://hachyderm.io/api/v1/";
 
 const client = new Masto({
@@ -23,7 +22,7 @@ const getLatestBlogPost = async () => {
             const content = await fs.readFile(resolve(file), { encoding: "utf8" });
             const meta = matter(content);
             const { title, description, date } = meta.data;
-            const url = `${HOST}/blog/${slug(meta.data.title)}`;
+            const url = `${process.env.HOST}/blog/${slug(meta.data.title)}`;
             return {
                 url,
                 date,

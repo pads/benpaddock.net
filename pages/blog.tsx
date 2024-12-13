@@ -15,7 +15,11 @@ export default function Blog({
     }[];
 }): JSX.Element {
     return (
-        <Layout title="All Blog Posts" description="Index of all blog posts on the site">
+        <Layout
+            title="All Blog Posts"
+            description="Index of all blog posts on the site"
+            url={`${process.env.HOST}/blog`}
+        >
             <ul>
                 {allPostsData.map(({ id, date, title }) => (
                     <li className="mb-4" key={id}>

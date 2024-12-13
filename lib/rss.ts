@@ -5,8 +5,8 @@ import { PostRssData } from "./posts";
 export function generateFeed(posts: Array<PostRssData>): string {
     const feed = new RSS({
         title: "benpaddock.net Blog",
-        site_url: "https://benpaddock.net",
-        feed_url: "https://benpaddock.net/feed.xml",
+        site_url: process.env.HOST,
+        feed_url: `${process.env.HOST}/feed.xml`,
     });
 
     posts.forEach((post) => {
@@ -14,7 +14,7 @@ export function generateFeed(posts: Array<PostRssData>): string {
             guid: post.id,
             title: post.title,
             description: post.description,
-            url: `https://benpaddock.net/blog/${post.id}`,
+            url: `${process.env.HOST}/blog/${post.id}`,
             date: post.date,
             author: "Ben Paddock",
         });
