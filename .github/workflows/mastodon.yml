@@ -1,7 +1,6 @@
 name: Mastodon Post
 
 on:
-  workflow_dispatch:
   workflow_run:
     # This is temporary until Vercel deployment is moved to GitHub actions
     # This should buy enough time for deployment to finish before posting to
@@ -13,7 +12,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: "contains(github.event.head_commit.message, 'Automatically generated. Merged on Decap CMS')"
+    if: "contains(github.workflow_run.head_commit.message, 'Automatically generated. Merged on Decap CMS')"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
