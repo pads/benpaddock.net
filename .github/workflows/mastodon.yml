@@ -12,7 +12,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    if: "contains(github.workflow_run.head_commit.message, 'Automatically generated. Merged on Decap CMS')"
+    if: "contains(github.workflow_run.head_commit.message, 'Merged on Decap CMS')"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
