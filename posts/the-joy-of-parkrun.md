@@ -13,6 +13,6 @@ It's not a race and there is no pretentiousness or elitism. You be you and run y
 
 I've been blessed with making some new friends and enjoying the social side of this event. I'm still a cyclist first and foremost but the running comes easier when the weather gets bad.
 
-![Ben and Josh stood side by side before Parkrun](/public/images/blog/whatsapp-image-2025-01-04-at-13.27.06.jpeg "Celebrating my friend Josh's 250th run")
+![Ben and Josh stood side by side before Parkrun](/images/blog/whatsapp-image-2025-01-04-at-13.27.06.jpeg "Celebrating my friend Josh's 250th run")
 
-I'm writing this after celebrating a friends 250th Parkrun. The milestones are a great incentive to keep showing up and recognise that achievement. Viva le Parkrun!
+I'm writing this after celebrating a friend's 250th Parkrun. The milestones are a great incentive to keep showing up and recognise that achievement. Viva le Parkrun!
