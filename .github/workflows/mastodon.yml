@@ -10,14 +10,9 @@ on:
     types: [completed]
 
 jobs:
-  test:
+  publish:
     runs-on: ubuntu-latest
-    steps:
-      - name: "Print commit message"
-        run: "echo ${{ github.workflow_run.head_commit.message }}"
-  build:
-    runs-on: ubuntu-latest
-    if: "contains(github.workflow_run.head_commit.message, 'Merged on Decap CMS')"
+    if: "contains(github.event.workflow_run.head_commit.message, 'Merged on Decap CMS')"
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
