@@ -27,3 +27,4 @@ jobs:
         run: node publish.mjs
         env:
           MASTODON_AUTH_TOKEN: ${{ secrets.MASTODON_AUTH_TOKEN }}
+          HOST: ${{ vars.HOST }}
