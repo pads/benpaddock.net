@@ -11,7 +11,7 @@
         "axe": "axe localhost:3000 --exit",
         "a11y": "start-server-and-test start http://localhost:3000 axe",
         "test": "npm run lintci",
-        "postinstall": "npx husky install && npx webdriver-manager update"
+        "postinstall": "npx husky install && npx webdriver-manager update && npx browser-driver-manager install chrome"
     },
     "husky": {
         "hooks": {
