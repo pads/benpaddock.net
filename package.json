@@ -9,7 +9,7 @@
         "lint": "next lint",
         "lintci": "next lint --quiet",
         "axe": "axe localhost:3000 --exit",
-        "axeci": "axe localhost:3000 --exit --user-data-dir=/tmp/axe-$GITHUB_RUN_ID",
+        "axeci": "axe localhost:3000 --exit --chrome-options='user-data-dir=/tmp/axe-$GITHUB_RUN_ID'",
         "a11y": "start-server-and-test start http://localhost:3000 axe",
         "a11yci": "start-server-and-test start http://localhost:3000 axeci",
         "test": "npm run lintci",
