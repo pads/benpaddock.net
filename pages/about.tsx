@@ -21,8 +21,8 @@ export default function About({ liveTrackUrl }: { liveTrackUrl: string }): JSX.E
                         Next.js
                     </a>{" "}
                     and is hosted on{" "}
-                    <a href="https://vercel.com/" target="_blank" rel="noreferrer">
-                        Vercel
+                    <a href="https://www.netlify.com/" target="_blank" rel="noreferrer">
+                        Netlify
                     </a>
                     . It can run without JavaScript and is tested for accessability issues using{" "}
                     <a href="https://www.deque.com/axe/devtools/" target="_blank" rel="noreferrer">

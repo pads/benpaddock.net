@@ -25,12 +25,10 @@ jobs:
               with:
                   chrome-version: latest
                   install-chromedriver: true
-            - name: Install Vercel CLI
-              run: npm install --global vercel@latest
-            - name: Link Vercel project to repo
-              run: vercel link --yes --token=${{ secrets.VERCEL_TOKEN }}
-            - name: Pull Vercel environment variables
-              run: vercel env pull --token=${{ secrets.VERCEL_TOKEN }}
+            - name: Link Netlify project to repo
+              run: netlify link  --name benpaddock --auth ${{ secrets.NETLIFY_AUTH_TOKEN }}
+            - name: Pull Netlify environment variables
+              run: netlify env:list --auth ${{ secrets.NETLIFY_AUTH_TOKEN }} --plain >> .env.local
             - run: npm ci
             - run: npm run build
             - run: npm run a11yci

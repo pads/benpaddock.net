@@ -1,20 +1,20 @@
 ![CI workflow](https://github.com/pads/benpaddock.net/actions/workflows/ci.yml/badge.svg)
-![Website Deploy](https://deploy-badge.vercel.app/?url=http%3A%2F%2Fwww.benpaddock.net&name=website)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fb13f0fa-126d-4a81-8c29-0bc52dba8c65/deploy-status)](https://app.netlify.com/projects/benpaddock/deploys)
 
-This is a [Next.js](https://nextjs.org/) website bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) website bootstrapped with `create-next-app`.
 
 ## Getting Started
 
 First, install dependencies:
 ```bash
 npm install
-npm install -g vercel@latest
+npm install -g netlify-cli
 ```
 
-Next, login to vercel and pull the environment variables:
+Next, login to netlify and pull the environment variables:
 ```bash
-vercel login
-vercel env pull
+netlify link --name benpaddock
+netlify env:list --plain >> .env.local
 ```
 
 Finally, run the development server:
