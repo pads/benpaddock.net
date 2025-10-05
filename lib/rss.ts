@@ -4,7 +4,7 @@ import { PostRssData } from "./posts";
 
 export function generateFeed(posts: Array<PostRssData>): string {
     const feed = new RSS({
-        title: "benpaddock.net Blog",
+        title: "thisispads.me.uk Blog",
         site_url: process.env.HOST,
         feed_url: `${process.env.HOST}/feed.xml`,
     });

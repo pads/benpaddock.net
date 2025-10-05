@@ -1,4 +1,4 @@
-![CI workflow](https://github.com/pads/benpaddock.net/actions/workflows/ci.yml/badge.svg)
+![CI workflow](https://github.com/pads/thisispads.me.uk/actions/workflows/ci.yml/badge.svg)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fb13f0fa-126d-4a81-8c29-0bc52dba8c65/deploy-status)](https://app.netlify.com/projects/benpaddock/deploys)
 
 This is a [Next.js](https://nextjs.org/) website bootstrapped with `create-next-app`.

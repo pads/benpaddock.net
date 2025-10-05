@@ -5,7 +5,7 @@ on:
     # This is temporary until Netlify deployment is moved to GitHub actions
     # This should buy enough time for deployment to finish before posting to
     # with the live URL to the latest blog
-    workflows: ["benpaddock.net CI"]
+    workflows: ["thisispads.me.uk CI"]
     branches: ["master"]
     types: [completed]
 

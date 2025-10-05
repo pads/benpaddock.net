@@ -6,7 +6,11 @@ import { PostData, getIdOfLatestPost, getPostData } from "../lib/posts";
 
 export default function Home({ latestPost }: { latestPost: PostData }): JSX.Element {
     return (
-        <Layout title="Ben Paddock Dot Net" description="Welcome to the home of Ben Paddock" url={process.env.HOST}>
+        <Layout
+            title="This Is Pads Dot Me Dot UK"
+            description="Welcome to the home of Ben Paddock"
+            url={process.env.HOST}
+        >
             <BlogPost post={latestPost}></BlogPost>
         </Layout>
     );
